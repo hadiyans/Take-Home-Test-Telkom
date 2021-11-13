@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.StoryDetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/story_detail"
+            android:textSize="@dimen/size_21px"
+            android:background="@color/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_47px"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/storyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_17px"
+            android:text="Judul Ceritaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:padding="@dimen/size_21px"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/storyAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By author author"
+            android:padding="@dimen/size_14px"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi"
+            android:paddingTop="@dimen/size_47px"
+            android:paddingLeft="@dimen/size_5px"
+            android:textSize="@dimen/size_15px"/>
+        <TextView
+            android:id="@+id/storyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            android:paddingTop="@dimen/size_5px"
+            android:paddingLeft="@dimen/size_5px"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/komentar"
+            android:paddingTop="@dimen/size_47px"
+            android:paddingLeft="@dimen/size_5px"
+            android:textSize="@dimen/size_19px"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/storyComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/size_5px"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

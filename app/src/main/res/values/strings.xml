@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TelkomTest-SHP-213142894267</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="empty_favorite">No Favorite Story Available</string>
+    <string name="story_detail">Story Detail</string>
+    <string name="deskripsi">Deskripsi :</string>
+    <string name="komentar">Komentar :</string>
+</resources>
